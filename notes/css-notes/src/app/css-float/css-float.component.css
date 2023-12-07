@@ -1,0 +1,13 @@
+.image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+}
+
+.img-paragraph {
+  position: absolute;
+  padding-left: 300px;
+  float: right;
+  box-sizing: border-box;
+}
