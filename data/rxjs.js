@@ -1,3 +1,8 @@
+const exportData = {
+  "Introduction to rxJs": introductionToRsJs,
+  "Operator in rxJs": opertators,
+};
+
 const introductionToRsJs = () => `
 # Introduction
  - RxJx stands for Reactive extension for javascript.
@@ -185,7 +190,5 @@ const opertators = () => `
      });
 `;
 
-module.exports = {
-  "Introduction to rxJs": introductionToRsJs,
-  "Operator in rxJs": opertators,
-};
+// exporting all data from here.
+export default exportData;
