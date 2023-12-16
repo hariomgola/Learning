@@ -17,23 +17,23 @@ const introductionToCSS = () => `
     - value                - The second part of the declaration that signifies the value of the property
   
    # Inline Styling 
-    - &lt;p style='color: red; font-size: 20px;'>I'm learning to code!&lt;/p>
+    - <p style='color: red; font-size: 20px;'>I'm learning to code!</p>
    
    # Internal StyleSheet
-      &lt;head>
-          &lt;style>
+      <head>
+          <style>
               p {
               color: red;
               font-size: 20px;
               }
-          &lt;/style>
-      &lt;/head>
+          </style>
+      </head>
   
    # External StyleSheet
     - you can create a css file and store it there (.css)
   
    # Linking Css external file.
-    - we can link external files using &lt;link> element in html
+    - we can link external files using <link> element in html
     - href — like the anchor element, the value of this attribute must be the address, or path, to the CSS file.
     - rel — this attribute describes the relationship between the HTML file and the CSS file.
     - Because you are linking to a stylesheet, the value should be set to stylesheet.
@@ -51,12 +51,12 @@ const cssSelector = () => `
       }
   
    # Adding Css with Class
-     &lt;p class='brand'>Sole Shoe Company&lt;/p>
+     <p class='brand'>Sole Shoe Company</p>
      .brand {
      }
   
    # Adding Multiple Classes
-    &lt;h1 class='green bold'> ... &lt;/h1>
+    <h1 class='green bold'> ... </h1>
     .green {
         color: green;
       }
@@ -65,7 +65,7 @@ const cssSelector = () => `
       }
   
    # Adding css with the help of ID
-    &lt;h1 id='large-title'> ... &lt;/h1>
+    <h1 id='large-title'> ... </h1>
     #large-title {
   
     }
@@ -82,8 +82,8 @@ const cssSelector = () => `
 const cssAdvanceSelector = () => `
    # Pseudo-class
     - Pseudo class is refer to as change in certain element or be in different state, after certain user interaction.
-    - When we click on an &lt;input> element and a blue boarder is added showing that it is in focus.
-    - When you click on a blue &lt;a> link to visit to another page, but when you return the link's text is purple.
+    - When we click on an <input> element and a blue boarder is added showing that it is in focus.
+    - When you click on a blue <a> link to visit to another page, but when you return the link's text is purple.
     - when you're filling out a form and button is greyed out.After filling its enabled
     - Example of pseudo-class selector
          :focus
@@ -97,7 +97,7 @@ const cssAdvanceSelector = () => `
     - A best practice in css is to style elements which using the lowest degree of specificity.
     - So that id an element needs a new style, it is easy to override.
   
-    &lt;h1 class='headline'>Breaking News&lt;/h1>
+    <h1 class='headline'>Breaking News</h1>
       h1 {
       color: red;
       }
@@ -115,11 +115,11 @@ const cssAdvanceSelector = () => `
   
    # Descendant combination
     - In Addition to chaining selectors to select elements, CSS also supports selecting elements that are nested within other HTML elements, aslo known as descendants.
-    - &lt;ul class='main-list'>
-      &lt;li> ... &lt;/li>
-      &lt;li> ... &lt;/li>
-      &lt;li> ... &lt;/li>
-      &lt;/ul>
+    - <ul class='main-list'>
+      <li> ... </li>
+      <li> ... </li>
+      <li> ... </li>
+      </ul>
     - .main-list li { 
     }
   
